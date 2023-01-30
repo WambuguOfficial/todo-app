@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form id="create-form">
+        <input type="text" id="title" placeholder="Task Title">
+        <input type="text" id="description" placeholder="Task Description">
+        <input type="date" id="date" placeholder="Expected Completion Date">
+        <button type="submit">Create Task</button>
+    </form>
+    <table id="task-table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Expected Completion Date</th>
+                <th>State</th>
+            </tr>
+        </thead>
+        <tbody id="task-list">
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+    
+</body>
+</html>
